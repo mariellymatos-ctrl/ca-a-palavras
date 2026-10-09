@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça-Palavras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Caça Palavra</h1>
+    <p>Clique nas letras para formar as palavras!</p>
+<button id="botao"> Novo jogo</button>  
+     </header>
+     <div class="container">
+     <div id="grid" class="grid">
+     <div class="palavras">
+     <h2> Encontre:</h2>
+     <ul id="lista de palavras"></ul>
+      </div>
+    </div>
+ </div>   
+ <script src="script.js"></script>
+</body>
+</html>
