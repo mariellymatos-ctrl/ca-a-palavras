@@ -16,3 +16,15 @@ button {
     cursor: pointer;
     background: #d7cbeb;
 }
+ .container {
+display: flex;
+justify-content: center;
+gap:30px;
+flex-wrap: wrap;
+}
+
+.grid{
+display: grid;
+gap: 2px;
+background: #ccc;
+}
